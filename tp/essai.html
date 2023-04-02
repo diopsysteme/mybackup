@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="get.js"></script>
+    <style>
+        fieldset{
+            width: 500px;
+            text-align: center;
+        }
+        table{
+            text-align: center;
+        }
+        img{
+            display: block;
+            width: 200px;
+            height: 300px;
+        }
+        img.hide{
+            display: none;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset name="" >
+        <legend>Formulaire</legend>
+       <center>
+        <table>
+            <tr><td>Nom</td><td><input type="text"  id="nom"></td></tr>
+            <tr><td>PreNom</td><td><input type="text"  id="prenom"></td></tr>
+            <tr><td>Age</td><td><input type="number"  id="age"></td></tr>
+            <tr><td></td><td><input type="button" value="valider" onclick="ge()"> </td></tr>
+ 
+        </table>
+       </center>
+       <br>
+   </fieldset>
+   <img  src="lamp-off.jfif"  id="monImage"  class="" alt="lampe allumée"><br>
+  <table>
+    <tr> <td> <input type="button" onclick="et()" value="eteindre"> </td> <td><input  type="button" value="allumer" onclick="allume()" ></td></tr>
+  </table>
+</body>
+</html>

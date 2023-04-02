@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(to left, rgb(33, 165, 158),rgb(170, 245, 247),rgb(197, 228, 223));
+}
+#form{
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+    border: solid left top rgb(189, 183, 183) 5px;
+   
+
+}
+#form h1{
+    color: rgb(99, 95, 95);
+}
+.inputcontrol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+input {
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+}
+input:focus{
+    outline: 0;
+}
+/*.inputcontrol input{
+    border-color: #09c372;
+}*/
+
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 99%;
+    color:rgb(99, 95, 95);
+    background-color: rgb(145, 221, 208);
+    border: none;
+    border-radius:4px;
+    transition: 2s;
+}
+#form button:hover{
+    background-color:rgb(33, 165, 158);
+    scale: (1.5);
+
+}
+.conteneur h4 a{
+    text-decoration: none;
+}
+.conteneur h4{
+    font-weight:bold rgb(99, 95, 95);
+}
